@@ -1,0 +1,1 @@
+export const BACKEND_URL = "https://medium.sazhar7781.workers.dev/api/v1"
