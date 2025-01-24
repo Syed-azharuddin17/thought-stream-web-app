@@ -1,5 +1,5 @@
-import React from 'react';
-import { useBlogs, useSelectedBlog } from '../hooks/useBlogs';
+
+import {  useSelectedBlog } from '../hooks/useBlogs';
 import EachFullBlog from '../components/EachFullBlog';
 import { useParams } from 'react-router-dom';
 import BlogSkeleton from '../components/BlogSkeleton';
@@ -9,7 +9,7 @@ function EachBlog() {
   const { loading, selectedBlog } = useSelectedBlog({ id: Number(id) });
 
   if (loading) {
-    
+
     return <div>
       <BlogSkeleton/>
       

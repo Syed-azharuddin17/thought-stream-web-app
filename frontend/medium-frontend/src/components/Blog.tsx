@@ -1,5 +1,4 @@
-import React from 'react'
-import { useBlogs } from '../hooks/useBlogs'
+
 import { Link } from 'react-router-dom'
 
 interface BlogCard{
